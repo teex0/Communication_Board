@@ -398,142 +398,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Fuse"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "F"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Fuse"
-				(at -1.905 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Fuse"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "fuse"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*Fuse*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Fuse_0_1"
-				(rectangle
-					(start -0.762 -2.54)
-					(end 0.762 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Fuse_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:LED"
 			(pin_numbers
 				(hide yes)
@@ -1162,6 +1026,194 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Humanoid:Mini_Fuse_Socket"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 16.51 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "Mini Fuse Socket"
+				(at 9.652 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "Humanoid:Mini Fuse Socket"
+				(at 16.51 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.keyelco.com/product-pdf.cfm?p=296"
+				(at 16.51 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "THM 2 in 1 Auto Blade Holder P/N 3557-2"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" ""
+				(at 16.51 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "534-3557-2"
+				(at 16.51 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/3557-2?qs=cxy41lVAGV%2FfbyASjpXK1g%3D%3D"
+				(at 16.51 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Keystone Electronics"
+				(at 16.51 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "3557-2"
+				(at 16.51 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "Mini_Fuse_Socket_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 15.24 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -2.54 180)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3348,6 +3400,12 @@
 		(uuid "2a664301-cd0c-42c9-ac71-68b0976debf9")
 	)
 	(junction
+		(at 66.04 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "332c3db3-3888-48f3-b817-ae221f21ed54")
+	)
+	(junction
 		(at 149.86 21.59)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3430,6 +3488,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6106e8c7-1ae6-4243-8b2d-f9bad67563b0")
+	)
+	(junction
+		(at 45.72 24.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "62e4b6ce-f095-4bb5-b3db-2369c5ba8ad9")
 	)
 	(junction
 		(at 149.86 27.94)
@@ -3606,12 +3670,6 @@
 		(uuid "d5c4fc07-c670-4600-ab68-27f83bfec524")
 	)
 	(junction
-		(at 78.105 22.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d893cf2f-281e-47c5-85a3-34e132817112")
-	)
-	(junction
 		(at 45.72 191.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3646,6 +3704,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f05e88b6-0c70-4736-a3e2-73a9a2c5b802")
+	)
+	(junction
+		(at 78.105 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f379ce09-4160-4ef5-9992-6859cca3da8e")
 	)
 	(junction
 		(at 223.52 161.29)
@@ -3875,16 +3939,6 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 22.86) (xy 78.105 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a80d6ad-65f4-4199-8379-e729fc537f69")
-	)
-	(wire
-		(pts
 			(xy 134.62 44.45) (xy 138.43 44.45)
 		)
 		(stroke
@@ -3975,6 +4029,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.105 22.86) (xy 80.645 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22eb6bea-a3da-4f65-943c-f13d5a35a2d2")
+	)
+	(wire
+		(pts
 			(xy 69.85 62.865) (xy 69.85 66.675)
 		)
 		(stroke
@@ -4002,16 +4066,6 @@
 			(type default)
 		)
 		(uuid "260adec7-11c6-4951-aa7d-688eab44f6da")
-	)
-	(wire
-		(pts
-			(xy 53.34 24.13) (xy 55.88 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "26e8a08e-dcd6-401b-acdc-1bb4c92a980e")
 	)
 	(wire
 		(pts
@@ -4072,6 +4126,16 @@
 			(type default)
 		)
 		(uuid "3203355f-d07f-4921-a33b-e5b1afbfa63a")
+	)
+	(wire
+		(pts
+			(xy 66.04 22.86) (xy 66.04 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "337d7a4c-8849-4693-97d1-4359413b38b6")
 	)
 	(wire
 		(pts
@@ -4162,6 +4226,16 @@
 			(type default)
 		)
 		(uuid "434e8818-79cc-443f-8549-83ddee2e352f")
+	)
+	(wire
+		(pts
+			(xy 66.04 21.59) (xy 66.04 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "438b7b01-34d1-4e32-9f5c-8a142dafb0a8")
 	)
 	(wire
 		(pts
@@ -4405,16 +4479,6 @@
 	)
 	(wire
 		(pts
-			(xy 80.645 22.86) (xy 78.105 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "56be3e7c-c39e-41f7-acc9-54b4caed972c")
-	)
-	(wire
-		(pts
 			(xy 86.36 179.07) (xy 92.71 179.07)
 		)
 		(stroke
@@ -4563,16 +4627,6 @@
 			(type default)
 		)
 		(uuid "630d5b58-d0c1-417a-90e9-982f494d22f1")
-	)
-	(wire
-		(pts
-			(xy 55.88 24.13) (xy 55.88 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63a8dd90-feeb-4f95-9945-9742de81bf53")
 	)
 	(wire
 		(pts
@@ -4735,6 +4789,16 @@
 			(type default)
 		)
 		(uuid "711d3082-ccab-4974-89a3-3f5b3b7b6923")
+	)
+	(wire
+		(pts
+			(xy 45.72 24.13) (xy 45.72 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "724bff69-7fd6-452b-b704-0ff12c20ffee")
 	)
 	(wire
 		(pts
@@ -5837,6 +5901,16 @@
 			(type default)
 		)
 		(uuid "d5cbf6b4-d6e4-4eaf-80d1-869e75a57504")
+	)
+	(wire
+		(pts
+			(xy 66.04 22.86) (xy 78.105 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6dc87f2-0e28-4fc3-be41-d60d6795cd78")
 	)
 	(wire
 		(pts
@@ -11017,74 +11091,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Fuse")
-		(at 49.53 24.13 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "94ad3ff6-2b0e-495e-84c3-ef8d71f53a01")
-		(property "Reference" "F1"
-			(at 49.53 17.78 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Fuse"
-			(at 49.53 20.32 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Fuse:Fuseholder_Cylinder-5x20mm_Schurter_0031_8201_Horizontal_Open"
-			(at 49.53 25.908 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 49.53 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Fuse"
-			(at 49.53 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "86173cb2-6258-42bf-b5c3-6fde5d4e9cd2")
-		)
-		(pin "1"
-			(uuid "e6ea8936-35f4-48cc-8526-a53cb92c4b74")
-		)
-		(instances
-			(project "NEW_Communication_Board"
-				(path "/541a1e5d-fb77-41a5-941f-f895851ed477"
-					(reference "F1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Interface_USB:FT232RL")
 		(at 148.59 151.13 0)
 		(unit 1)
@@ -13195,6 +13201,132 @@
 			(project "NEW_Communication_Board"
 				(path "/541a1e5d-fb77-41a5-941f-f895851ed477"
 					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Humanoid:Mini_Fuse_Socket")
+		(at 45.72 21.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c3f9c292-8ed4-4783-87c5-a415ac6c6a8c")
+		(property "Reference" "J3"
+			(at 55.88 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Mini Fuse Socket"
+			(at 55.88 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Humanoid:Mini Fuse Socket"
+			(at 62.23 116.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.keyelco.com/product-pdf.cfm?p=296"
+			(at 62.23 216.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "THM 2 in 1 Auto Blade Holder P/N 3557-2"
+			(at 45.72 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 62.23 416.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "534-3557-2"
+			(at 62.23 516.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/3557-2?qs=cxy41lVAGV%2FfbyASjpXK1g%3D%3D"
+			(at 62.23 616.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Keystone Electronics"
+			(at 62.23 716.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "3557-2"
+			(at 62.23 816.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "65a7dbf1-2f73-4d37-adbf-29ce874f8e12")
+		)
+		(pin "1"
+			(uuid "3582450e-8d99-4088-9994-95e7c1a7ac37")
+		)
+		(pin "2"
+			(uuid "f0703cec-2df8-402a-9833-ecd72843d268")
+		)
+		(pin "4"
+			(uuid "601d6b4b-5aa2-459b-ad8c-023e2b8d642f")
+		)
+		(instances
+			(project "NEW_Communication_Board"
+				(path "/541a1e5d-fb77-41a5-941f-f895851ed477"
+					(reference "J3")
 					(unit 1)
 				)
 			)
